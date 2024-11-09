@@ -1442,7 +1442,7 @@ section.subshop{
 
  @media screen and (min-width: 901px) and (max-width: 1024px) {
     .hero {
-        height: 33.5vh;
+        height: 51vh;
     }
     .boxes {
         margin: 6px 10px;
