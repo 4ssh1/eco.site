@@ -117,7 +117,7 @@ li a.active::after {
 }
 
 .hero {
-    background: url(../images/hero4.png);
+    background: url('./images/hero4.png');
     height: 88.5vh;
     background-position: top 20% right 0%;
     background-size: cover;
@@ -149,7 +149,7 @@ button:hover {
 }
 
 .hero_button {
-    background: url(../images/button.png);
+    background: url('./images/button.png');
     background-size: cover;
     border: none;
     background-position: top 0% left 25%;
@@ -275,7 +275,7 @@ button:hover {
 }
 
 .banner1 {
-    background: url(../images/banner/b10.jpg);
+    background: url('./images/banner/b10.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -284,10 +284,11 @@ button:hover {
     justify-content: center;
     align-items: center;
     padding: 10px 40px;
+    width: 50%;
 }
 
 .banner2 {
-    background: url(../images/banner/b18.jpg);
+    background: url('./images/banner/b18.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -296,6 +297,7 @@ button:hover {
     text-align: center;
     align-items: center;
     padding: 10px 40px;
+    width: 50%;
 }
 
 .banner h4{
@@ -1306,8 +1308,6 @@ div.contact div a span{
     .newsletter {
         margin-top: 9px;
         padding: 7px 5px;
-        height: 15vh;
-        line-height: 10px;
         flex-direction: column;
         align-items: flex-start;
     }
