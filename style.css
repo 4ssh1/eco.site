@@ -408,7 +408,7 @@ footer .column a,
     margin-left: 10px;
 }
 .shop_hero{
-    background:url(../images/banner/b1.jpg);
+    background:url('./images/banner/b1.jpg');
     padding-top: 50px;
     line-height: 50px;
     background-size: cover;
@@ -519,7 +519,7 @@ input[type= number]{
 
 /* blog page  */
 .blog_hero{
-    background-image: url(../images/blog/b1.jpg);
+    background-image: url('./images/blog/b1.jpg');
     background-size: cover;
 }
 
@@ -617,7 +617,7 @@ section marquee{
 
 /* contact page  */
 .contact_hero{
-    background-image: url(../images/about/banner.png);
+    background-image: url('./images/about/banner.png');
 }
 
 .contact_section{
