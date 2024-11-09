@@ -574,6 +574,10 @@ input[type= number]{
 
 /* about page  */
 
+#about_hero{
+    background: url('./images/banner/b2.jpg');
+}
+
 .about_details{
     display: flex;
     width: 100%;
@@ -819,6 +823,9 @@ section.cart_total input{
         line-height: 22px;
         /* height: 40vh; */
     }
+    .banner1, .banner2{
+        width: 100%;
+    }
     .products .details {
         max-width: 397px;
         padding: 5px 10px;
@@ -982,7 +989,13 @@ section.subshop{
     width: 50px;
 }
 div.contact div a span{
-    font-size: 15px;
+    font-size: 11px;
+}
+div.people div span{
+    font-size: 9px;
+}
+div.people div h4{
+    font-size: 10px;
 }
 }
 
@@ -1063,6 +1076,10 @@ div.contact div a span{
         /* height: 22vh; */
         margin-bottom: 10px;
     }
+    .banner1, .banner2{
+        width: 100%;
+    }
+    
     .products .details {
         max-width: 397px;
         padding: 5px 10px;
@@ -1208,7 +1225,13 @@ section.subshop{
     width: 50px;
 }
 div.contact div a span{
-    font-size: 15px;
+    font-size: 12px;
+}
+div.people div span{
+    font-size: 12px;
+}
+div.people div h4{
+    font-size: 13px;
 }
 
  }  
@@ -1304,10 +1327,9 @@ div.contact div a span{
         padding: 5px 10px;
         margin: 2px 2px 7px 0;
     }
-
     .newsletter {
         margin-top: 9px;
-        padding: 7px 5px;
+        padding: 26px 15px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -1438,7 +1460,10 @@ section.subshop{
     margin-top: 20px;
     padding-left: 40px;
 }
+div.people div h4{
+    font-size: 15px;
  }
+}
 
  @media screen and (min-width: 901px) and (max-width: 1024px) {
     .hero {
