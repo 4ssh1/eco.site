@@ -519,7 +519,7 @@ input[type= number]{
 
 /* blog page  */
 .blog_hero{
-    background-image: url('./images/blog/b1.jpg');
+    background: url('./images/blog/b1.jpg');
     background-size: cover;
 }
 
@@ -617,7 +617,7 @@ section marquee{
 
 /* contact page  */
 .contact_hero{
-    background-image: url('./images/about/banner.png');
+    background: url('./images/about/banner.png');
 }
 
 .contact_section{
