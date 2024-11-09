@@ -117,7 +117,7 @@ li a.active::after {
 }
 
 .hero {
-    background: url(/images/hero4.png);
+    background: url(./images/hero4.png);
     height: 88.5vh;
     background-position: top 20% right 0%;
     background-size: cover;
@@ -149,7 +149,7 @@ button:hover {
 }
 
 .hero_button {
-    background: url(/images/button.png);
+    background: url(./images/button.png);
     background-size: cover;
     border: none;
     background-position: top 0% left 25%;
@@ -275,7 +275,7 @@ button:hover {
 }
 
 .banner1 {
-    background: url(/images/banner/b10.jpg);
+    background: url(./images/banner/b10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -287,7 +287,7 @@ button:hover {
 }
 
 .banner2 {
-    background: url(/images/banner/b18.jpg);
+    background: url(./images/banner/b18.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -406,7 +406,7 @@ footer .column a,
     margin-left: 10px;
 }
 .shop_hero{
-    background:url(/images/banner/b1.jpg);
+    background:url(./images/banner/b1.jpg);
     padding-top: 50px;
     line-height: 50px;
     background-size: cover;
@@ -517,7 +517,7 @@ input[type= number]{
 
 /* blog page  */
 .blog_hero{
-    background-image: url(/images/blog/b1.jpg);
+    background-image: url(./images/blog/b1.jpg);
     background-size: cover;
 }
 
@@ -615,7 +615,7 @@ section marquee{
 
 /* contact page  */
 .contact_hero{
-    background-image: url(/images/about/banner.png);
+    background-image: url(./images/about/banner.png);
 }
 
 .contact_section{
