@@ -1450,9 +1450,6 @@ section.subshop{
     .features {
         flex-wrap: nowrap;
     }
-    .banner {
-        height: 23vh;
-    }
     footer .column div, footer div {
         padding-right: 30px;
     }
