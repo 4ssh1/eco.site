@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce websites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav class="header">
+        <img src="/images/logo.png" width="100px">
+        <ul id="navbar">
+            <!-- the image below is the cancel button, it is hidden for large screen -->
+            <li class="cancel" onclick="hideSide()"><img src="/images/close.png" width="15px"></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- cart icon for large screens -->
+            <li class="two"><a href="cart.html"><img src="/images/cart.png" width="20px"></a></li>
+        </ul>
+        <div class="hide">
+            <!-- cart icon for small screens  -->
+            <li>
+                <a href="cart.html"><img src="/images/cart.png" width="25px"></a>
+            </li>
+            <!-- the  image that will be clicked to show the menu slide for small screens -->
+            <li onclick="showSide()"><img id="bar" width="25px"
+                    src="/images/arrow_drop_down_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png"></li>
+        </div>
+    </nav>
+    <section class="hero">
+        <h4 class="space">Trade in offer</h4>
+        <h2 class="space">Super value deals</h2>
+        <h1 class="space">On all products</h1>
+        <p class="space">Save more with coupons, up to 70% off!</p>
+        <button class="hero_button">Shop now</button>
+    </section>
+
+    <section class="features">
+        <div class="boxes">
+            <img src="/images/features/f1.png" width="120px">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="boxes">
+            <img src="/images/features/f2.png" width="120px">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="boxes">
+            <img src="/images/features/f3.png" width="120px">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="boxes">
+            <img src="/images/features/f4.png" width="120px">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="boxes">
+            <img src="/images/features/f5.png" width="120px">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="boxes">
+            <img src="/images/features/f6.png" width="120px">
+            <h6>Free Shipping</h6>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="products_s1">
+            <h2 class="space">Featured Products</h2>
+            <span class="space">Our Summer Collections</span>
+        </div>
+        <div class="boxes_2">
+            <div class="details">
+                <img src="/images/products/f8.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png">
+                    <img src="/images/star1.png">
+                    <img src="/images/star1.png">
+                    <img src="/images/star2 (2).png">
+                    <img src="/images/star3.png">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+
+            </div>
+            <div class="details">
+                <img src="/images/products/f6.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star2 (2).png" alt="">
+                    <img src="/images/star3.png" alt="">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+            </div>
+            <div class="details">
+                <img src="/images/products/f3.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star2 (2).png" alt="">
+                    <img src="/images/star3.png" alt="">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+            </div>
+            <div class="details">
+                <img src="/images/products/f4.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star2 (2).png" alt="">
+                    <img src="/images/star3.png" alt="">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+            </div>
+            <div class="details">
+                <img src="/images/products/f5.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star2 (2).png" alt="">
+                    <img src="/images/star3.png" alt="">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+            </div>
+            <div class="details">
+                <img src="/images/products/f2.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star2 (2).png" alt="">
+                    <img src="/images/star3.png" alt="">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+            </div>
+            <div class="details">
+                <img src="/images/products/f7.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star2 (2).png" alt="">
+                    <img src="/images/star3.png" alt="">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+            </div>
+            <div class="details">
+                <img src="/images/products/f1.jpg" width="200px">
+                <p>adidas</p>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="products_s2">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star1.png" alt="">
+                    <img src="/images/star2 (2).png" alt="">
+                    <img src="/images/star3.png" alt="">
+                </div>
+                <p>&#8358 99.99</p>
+                <img src="/images/add_shopping_cart_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" class="cart">
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="banner1">
+            <h4>Crazy deals</h4>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p> Ipsam velit, non molestiae enim cumque totam quas doloribu</p>
+            <button class="banner_button" id="yellow">Learn More</button>
+        </div>
+        <div class="banner2">
+            <h4>Crazy deals</h4>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p> Ipsam velit, non molestiae enim cumque totam quas doloribu</p>
+            <button class="banner_button">Learn More</button>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div>
+            <h3>Sign Up For Newsletters</h3> <br>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing <span>doaud udh</span></h5>
+        </div>
+        <div class="new"><input type="email" name="Email" id="Email" placeholder="Your email address"><button>Sign
+                Up</button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="contact">
+            <img src="/images/logo.png" alt="" width="80px"><br>
+            <h5>Contact</h5>
+            <h5>Address : 735 Lorem ipsum, dolor sit </h5>
+            <h5>Phone : +234 836 000 000</h5>
+            <div class="font">
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-envelope"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-whatsapp"></span></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class="column_1">
+                <h5>About</h5> <br>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Delivery information</a></p>
+                <p><a href="#">Privacy policy</a></p>
+                <p><a href="#">Terms and condition</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+            <div class="column_2">
+                <h5>My Account</h5><br>
+                <p><a href="#">Sign in</a></p>
+                <p><a href="#">My Wallet</a></p>
+                <p><a href="#">Help</a></p>
+            </div>
+            <div>
+                <h5>Install App</h5><br>
+                <div class="app">
+                    <a href="#"><img src="/images/pay/app.jpg" width="120px"></a>
+                    <a href="#"><img src="/images/pay/play.jpg" width="120px"></a>
+                </div>
+                <p><a href="#">Secured payment</a></p>
+                <img src="/images/pay/pay.png" width="180px">
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

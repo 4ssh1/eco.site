@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer ></script>
+</head>
+
+<body>
+    <nav class="header">
+        <div>
+            <img src="/images/logo.png" alt="" class="logo" height="auto">
+        </div>
+        <div>
+            <ul id="navbar">
+                <li class="cancel" id="list" onclick="hideSide"><a href=""><img src="/images/cancel_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" alt=""></a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><img src="/images/cart.png" width="20px"></a></li>
+            </ul>
+        </div>
+        <div class="hide">
+            <a href="cart.html"><img src="/images/cart.png" width="20px"></a></li>
+            <div onclick="showSide()" ><img id="bar" src="/images/arrow_drop_down_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" width="20px"></div>
+        </div>
+    </nav>
+
+    <section class="subshop">
+        <div class="detail_1">
+            <!-- the main image  -->
+            <div class="main_image Images">
+                <img src="/images/products/n1.jpg" alt="" class="main_img" width="400px">
+            </div>
+            <!-- the four small images  -->
+            <div class="sub_shop_images Images">
+                <div class="img_small"><img src="/images/products/n1.jpg" alt="" class="shop_img" width="98px"></div>
+                <div class="img_small"><img src="/images/products/n2.jpg" alt="" class="shop_img" width="98px"></div>
+                <div class="img_small"><img src="/images/products/n3.jpg" alt="" class="shop_img" width="98px"></div>
+                <div class="img_small"><img src="/images/products/n4.jpg" alt="" class="shop_img" width="98px"></div>
+            </div>
+        </div>
+        <div class="detail_2">
+            <h3>Men's Fashion T Shirt</h3>
+            <h2>&#8358 99.99</h2>
+            <select name="Size" id="size">
+                <option value="">Select size</option>
+                <option value="medium">Medium</option>
+                <option value="">Small</option>
+                <option value="">XL</option>
+                <option value="">XS</option>
+            </select>
+            <div class="form">
+                <input type="number" name="number" id="number" min="1" max="10" value="1">
+                <input type="button" value="Add to chart">
+            </div>
+            <div>
+                <h3>Product Details</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, consectetur voluptatibus recusandae repudiandae dignissimos tempora animi earum, doloremque soluta commodi ratione accusantium magni maiores eligendi, velit ut totam fuga ullam?</p>
+            </div>
+        </div>
+    </section>
+
+     <section class="newsletter">
+        <div>
+            <h3>Sign Up For Newsletters</h3> <br>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing <span>doaud udh</span></h5>
+        </div>
+        <div class="new"><input type="email" name="Email" id="Email" placeholder="Your email address"><button>Sign
+                Up</button></div>
+    </section>
+
+    <footer>
+        <div class="contact">
+            <img src="/images/logo.png" alt="" class="footer_logo" height="auto"><br><br>
+            <h5>Contact</h5><br>
+            <h5>Address : 735 Lorem ipsum, dolor sit </h5><br>
+            <h5>Phone : +234 836 000 000</h5><br>
+            <div>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-envelope"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-whatsapp"></span></a>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <h5>About</h5> <br>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Delivery information</a></p>
+                <p><a href="#">Privacy policy</a></p>
+                <p><a href="#">Terms and condition</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+            <div>
+                <h5>My Account</h5><br>
+                <p><a href="#">Sign in</a></p>
+                <p><a href="#">My Wallet</a></p>
+                <p><a href="#">Help</a></p>
+            </div>
+            <div>
+                <h5>Install App</h5><br>
+                <div class="app">
+                    <p class="border_image"><a href="#"><img src="/images/pay/app.jpg" alt=""></a></p>
+                    <p class="border_image"><a href="#"><img src="/images/pay/play.jpg" alt=""></a></p>
+                </div><br>
+                <p><a href="#">Secured payment</a></p><br>
+                <div>
+                    <img src="/images/pay/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    
+</body>
+
+</html>
