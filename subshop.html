@@ -16,26 +16,28 @@
 
 <body>
     <nav class="header">
-        <div>
-            <img src="./images/logo.png" alt="" class="logo" height="auto">
-        </div>
-        <div>
-            <ul id="navbar">
-                <li class="cancel" id="list" onclick="hideSide"><a href=""><img src="./images/cancel_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" alt=""></a></li>
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="shop.html" class="active">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><img src="./images/cart.png" width="20px"></a></li>
-            </ul>
-        </div>
+        <img src="./images/logo.png" width="100px">
+        <ul id="navbar">
+            <!-- the image below is the cancel button, it is hidden for large screen -->
+            <li class="cancel" onclick="hideSide()"><img src="./images/close.png" width="15px"></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- cart icon for large screens -->
+            <li class="two"><a href="cart.html"><img src="./images/cart.png" width="20px"></a></li>
+        </ul>
         <div class="hide">
-            <a href="cart.html"><img src="./images/cart.png" width="20px"></a></li>
-            <div onclick="showSide()" ><img id="bar" src="./images/arrow_drop_down_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png" width="20px"></div>
+            <!-- cart icon for small screens  -->
+            <li>
+                <a href="cart.html"><img src="./images/cart.png" width="25px"></a>
+            </li>
+            <!-- the  image that will be clicked to show the menu slide for small screens -->
+            <li onclick="showSide()"><img id="bar" width="25px"
+                    src="./images/arrow_drop_down_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.png"></li>
         </div>
     </nav>
-
     <section class="subshop">
         <div class="detail_1">
             <!-- the main image  -->
